@@ -1,0 +1,71 @@
+    
+
+.titre{
+    background-color: #061339;
+    margin: 0;
+}
+
+.titre h2{
+    color: white;
+    
+    
+
+}
+.premierblock{
+    background: url("./evaluations_docs/img/background.jpg");
+    height: 50%;
+    margin-top:-22px ;
+    padding-top: 50px;
+
+}
+
+.premierblock h1{
+    color: white;
+    text-align: center;
+   
+}
+
+footer h1{
+    color: #2F4073;
+}
+footer p{
+    float: left;
+    width: 70%;
+}
+.tete { 
+    color:  #7885A5;
+}
+footer {
+   background-color: rgb(226, 221, 221) ; 
+   z-index: 1;
+}
+text {
+    width: 50%;
+}
+footer p{
+    
+}
+
+.carous{
+    padding-left: 750px;
+    margin-top: -260px;
+}
+.titreform{
+    color: #2F4073 ;
+}
+form{
+  width: 40%;
+  margin: 0;
+  display: block;
+  height: 40%;
+}
+.tete img{
+    background-color:  #7885A5;
+}
+.pied p{
+    background-color: #2F4073;
+    float: right;
+}
+.pied{
+    color: white;
+}

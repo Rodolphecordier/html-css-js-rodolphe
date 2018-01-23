@@ -1,0 +1,207 @@
+.header a, li, ul {
+    text-decoration: none;
+    display: inline;
+    width: 200px;
+    color: grey;
+   
+
+}
+
+.espace {
+        text-align: right ;
+        color: rgb(255, 0, 0);
+        margin-bottom:15px; 
+}
+.espace li a{
+        color: rgb(255, 0, 0);
+}
+
+.logo {
+        max-width: 100%;
+        width: 25%;
+        float: left;
+        height: 100px;
+        padding-bottom:25px; 
+      
+    
+}
+
+.logo img{
+    width: 50%;
+    
+}
+.projo img {
+        width: 100%;
+        float: left;
+        margin: 0;
+    
+}
+
+.article p {
+        text-align: center;
+        width: 35%;
+        float: left;
+        font-size: 30px;
+        color:white;
+        margin-left: 50px; 
+        margin-right: 50px;
+        padding-left:40px; 
+        padding-top: 20px;
+         
+}
+
+.accueil li a {
+        width: 100%;
+        color: white;
+        float: left;
+        margin-top: 50px;
+        line-height: 110px; 
+      
+        
+        
+        
+        
+}
+
+
+.accueil li{
+    display: inline-block;
+   
+}
+.accueil fieldset {
+        border-radius: 8px;
+        border: 2px solid #FFF;
+        color: white;
+        height: 180px;
+        background-color:rgba(252, 0, 0, 0.29); 
+        
+
+}
+
+.logo{
+        padding-top:40px; 
+}
+
+.page fieldset {
+        border-radius: 8px;
+        border: 2px solid #FFF;
+        color: white;
+        background-color:rgba(252, 0, 0, 0.29);  
+
+}
+.page h1 {
+        color:rgb(255, 0, 0);
+}
+
+.page {
+        max-width: 1000px;
+    background-size: 100% ;
+    width: 100%;
+    margin-left: 500px; 
+    background-size: cover;
+    background-position: -520px; 
+
+       
+}
+body{
+        background:url("http://www.princepoker.com/wp-content/uploads/2016/04/pokerstars2016.jpg") ;
+        
+}
+
+.partenaires img {
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+        transition-duration: 4.5s;
+        position: relative;
+        
+        
+        
+    }
+
+    .partenaires img:hover  {
+       filter: none;
+       transition-duration:3.5s; 
+}
+
+
+.footer{
+        width: 100%;
+        height: auto;
+        float: left;
+       
+    
+}
+
+.gmap iframe{
+        max-width: 100%
+}
+    
+.gmap{
+        width: 290px;
+        height: auto ;
+        float: left;
+        margin: 10px;
+        
+}
+
+.newsletter{
+        width: 290px;
+        height: auto;
+        float: left;
+        margin: 10px;
+        
+    
+}
+    
+    
+.newsletter fieldset{
+        font-family: 'Orbitron', sans-serif;
+        border-radius: 8px;
+        border: 2px solid #FFF;
+        color: white;
+        height: 180px;
+    
+    
+}
+    
+.newsletter input{
+        width: 91%;
+        height: 25px;
+        margin-bottom: 5px;
+       
+}
+
+.newsletter input[type=submit] {
+        width: 100%;
+        height: 30px;
+        border: 0;
+        background: white;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+}
+.contact {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+       margin-top: 120px;
+        color: rgb(255, 0, 0);
+       
+}
+.contact a{
+        color: rgb(255, 0, 0);
+       
+       
+        
+}
+
+
+
+
+
+
+
+      
+    
+   

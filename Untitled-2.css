@@ -1,0 +1,18 @@
+.a {
+    background-color: blue;
+    width: 250px; 
+    float: left;
+    height: 750px;
+}
+#page {
+    float: left;
+    width: 100%;
+    height: auto;
+    
+}
+
+.b{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}

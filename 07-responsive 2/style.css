@@ -1,0 +1,67 @@
+.header{
+    width: 100%;
+    height: 540px ;
+    background: url(https://ark-france.fr/wp-content/uploads/2017/08/maxresdefault.jpg)  no-repeat;
+    background-size: contain; 
+    width: 100%;
+}
+.container{
+width: 50%;                             
+margin:80px auto ; 
+overflow: hidden;                                 
+background-color: rgba(90, 90, 90,0.50)  ;
+border-radius: 15px;                
+box-shadow: 0 5px 15px 0 white;  
+padding: 5px
+                    
+}
+
+.header ul li{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 90px ;
+     
+
+}
+.header ul li a{
+    color: white;
+}
+
+.titre h1{
+    color: white;
+    text-align: center;
+}
+.ilustration img{
+    max-width: 80%;
+
+}
+
+.ilustration p{
+    width: 100%;
+    height: 163px;
+    padding-top: 50px;
+    color: white; 
+}
+
+.article2 p{
+     width: 100%;
+    height: 163px;
+    color: white; 
+}
+body {
+    background: url(./jOC02Zf.png) no-repeat;
+    background-position-x: -570px;
+    background-size: cover;    
+
+}
+
+address{
+    color: white;
+}
+legend{
+    color: white;
+}
+
+

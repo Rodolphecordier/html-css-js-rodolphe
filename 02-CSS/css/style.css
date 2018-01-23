@@ -1,0 +1,290 @@
+/*---------
+dans cette feuille de CSS, je vais pouvoir définir l'apparence que je veut donner aux diférents élèment de cette page
+### La Syntaxe ###
+element{
+    propriete:valeur;
+}
+----------*/
+
+/*------- ajout de google font-------*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+/*-- je cible dans ma page HTML, tout les élement A,H1 et H3--*/
+a, h1, h3, p {
+    font-family: 'Sigmar One';
+    color: white;
+}
+.contenu {
+    font-family: 'Sigmar One';
+    color: white;
+}
+/*-----
+cibler via la classe de l'element
+NB : une même classe peut etre présente plusieurs fois sur une même page
+
+.laclasse {
+     propriete:valeur;
+}
+-----------*/
+
+/*
+consigne
+1- tous les liens de "header" en noir
+2- non souligné
+3- affiché en ligne via la propriété display
+*/
+.header a, li, ul {
+    color:white;
+    text-decoration: none;
+    display: inline;
+    width: 200px;
+    
+}
+
+
+    /*---- ici, je cible tous les elements dans la div class header--*/
+    .header a {
+        /*-- plusieurs façon de choisir une couleur --*/
+
+        /*-- mot clé de la couleur --*/
+        color: white;
+
+        /*-- notation héxadécimale --
+        color : #000000;
+        color : #000;*/
+
+        /*-- notation décimale--
+        color :rgb(000, 000, 000);*/
+                /*--gérer le soulignement du texte --*/
+                text-decoration: none;
+                
+                        /*-- modifier la taille de la police --*/
+                        font-size: 25px;
+                
+                        /*-- je souhaite que mes liens s'affiche en majuscule --*/
+                        text-transform: uppercase;
+                    } 
+                    
+                    /*--ici je cible les listes prensentes dans la div class header---*/
+                    .header ul {
+                        margin:0;
+                        padding:0;  
+                    }
+                
+                    .header ul li {
+                        display: inline-block;
+                        /*- width me permet de définir la largeur d'un élèment -*/ 
+                        width: 317px;
+                        /*- aligner mon texte dans son élèment -*/
+                        text-align: center;
+                    }
+
+                    /*--
+                    je souhaite que mes liens soient en rouge au passage de la souris.
+                    --*/
+                    a:hover  {
+                        color:blue;
+                        
+                    }
+                    a:hover::before {
+                        content: "🐲";
+
+                    }
+
+                    /*-- 
+                    je change la couleur de mon lien à l'intérieur de la classe current
+                    --*/
+
+                    .current a {
+                        color: blue;
+                    }
+                    /*
+                    cibler via son id un élément
+                    NB : un id ne peut être présent qu'une fois par page
+                    #monid{
+                        propriete:valeur;
+                    }
+                    */
+
+                    #page {
+                        /*-- je vais définir la largeur de ma page --*/
+                        width: 960px;
+
+                        /*--margin : <top/bottom> <left/right> --*/
+                       
+                        margin:80px auto ; 
+                        overflow: hidden;                  
+                    
+                    /*-- je rajoute un fond à ma page --*/
+                    /* consignes
+1 a ma div page ajouter une marge bottom de 80 px
+2 ajouter avec la propriété border-radius un arrondi de 5px a div#page
+3 et grace a box shadow, ajouter une ombre légère autour de div#page*/
+                
+                background-color: rgba(90, 90, 90,0.50)  ;
+                border-radius: 15px;                /*-- applique des arrondi a l'élèment--*/ 
+                box-shadow: 0 5px 15px 0 white;  /*-- j'applique une ombre autour de ma #page --*/ 
+                /* offset-x (horizontal)/offset y (vertical)/ blur-radius (flou)/color */
+
+                /*j'applique une marge interne de 5px a ma page*/ 
+                padding: 5px
+            }
+            .contenu h1 {
+                text-align: center;
+                /* retirer le gras du titre*/
+                font-weight: normal;
+
+                /*solid: ligne par défaut, dotted : petits points, dashed des traits d'union*/ 
+                
+                border-bottom: 1px solid;
+
+
+            }
+            .bandeauduhaut {
+                width: 100%;
+                height: 540px ;
+                background: url(https://ark-france.fr/wp-content/uploads/2017/08/maxresdefault.jpg)  no-repeat;
+                background-size: contain; 
+                width: 100%;
+                
+
+                
+
+
+            }
+            .illustration { background-size : contain;
+              
+            }
+
+            /* je souhaite changer la couleur de fond de ma page*/
+
+
+body {
+    background: url(../img/jOC02Zf.png) no-repeat;
+    background-position-x: -570px;
+    background-size: cover;    
+
+}
+
+/*--css pour illustration et article--*/
+
+.contenu {
+    /*dimension et positionement*/
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.contenu class=p2  {
+    height: auto;
+    float:right;
+    text-align: left;
+}
+
+    /*décoration*/
+
+    .illustration{
+        max-width: 60%;
+        height: auto;
+        float: left;
+    }
+    .illustration img{
+        max-width: 100%;
+    }
+
+    .article{
+        /*dimension et positionement*/
+        max-width: 35%;
+        height: auto;
+        float: left;
+       
+         /*--décoration --*/
+         margin: 0 10px 0 10px;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: justify;
+
+    }
+    .article p {
+        color: rgb(255, 255, 255);
+        
+    }
+.footer{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+.gmap iframe{
+    max-width: 100%
+}
+
+.gmap{
+    width: 290px;
+    height: auto ;
+    float: left;
+    margin: 10px
+}
+.newsletter{
+    width: 290px;
+    height: auto;
+    float: left;
+    margin: 10px
+
+}
+
+.newsletter form{
+
+}
+
+.newsletter fieldset{
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    color: white;
+    height: 180px;
+
+
+}
+
+.newsletter legend{}
+
+.newsletter input{
+    width: 91%;
+    height: 25px;
+    margin-bottom: 5px;
+    padding: 5px 10px; 
+}
+.newsletter input[type=submit] {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+    color: white;
+    
+}
+.formulaire{
+    padding-top:10px ;
+  
+}
+.article2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+     
+}
+
+   
+
+
+
